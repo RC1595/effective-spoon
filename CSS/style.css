@@ -1,0 +1,56 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  background-color: #27313b;
+}
+
+svg {
+  height: 5vh;
+}
+
+#menu {
+  display: none;
+  position: fixed;
+  top: 50px;
+  background-color: dimgrey;
+  height: 40vh;
+}
+
+#menutoggle:checked ~ div {
+  display: block;
+}
+
+#menutoggle {
+  display: none;
+}
+
+label {
+  user-select: none;
+}
+
+label > img {
+  width: 50px;
+}
+
+header > div {
+  color: gold;
+}
+
+header {
+  margin: 2px;
+}
+
+header #logo {
+  width: 80px;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+}
+
+header img {
+  width: 50px;
+}
+/*# sourceMappingURL=style.css.map */

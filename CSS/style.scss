@@ -1,0 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    background-color: rgb(39, 49, 59);
+}
+
+svg {
+    height: 5vh;
+}
+
+#menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    background-color: dimgrey;
+    height: 40vh;
+    
+}
+#menutoggle:checked ~ div {
+    display: block;
+}
+#menutoggle {
+    display: none;
+}
+label {
+    user-select: none;
+}
+label > img {
+    width: 50px;
+    
+}
+header > div {
+    color:gold;
+}
+header {
+    margin: 2px;
+    #logo {
+        width: 80px;
+        padding-left: 5em;
+        padding-right: 5em;
+        padding-top: 1em;
+    }
+    img {
+        width: 50px;
+    }
+}
