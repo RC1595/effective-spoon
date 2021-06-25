@@ -1,0 +1,60 @@
+header > div {
+    color:gold;
+}
+header {
+    margin: 2px;
+    padding-top: 1vh;
+    #logo {
+        width: 25vw;
+        padding-left: 8vw;
+    }
+    img {
+        width: 15vw;
+    }
+    a > img {
+        padding-left:8vw;
+    }
+}
+#menu {
+    display: none;
+    position: fixed;
+    top: 50px;
+    background-color: dimgrey;
+    height: 55vh;
+    width: 65vw;
+    margin-top: 15vh;
+}
+        
+.menubutton {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;        
+    align-items: center;
+    justify-items: center;
+    
+    text-indent: 25vw;
+    color: gold;        
+    }
+#menutoggle:checked ~ div {
+    display: block;
+}
+#menutoggle {
+    display: none;
+}
+label {
+    user-select: none;
+}
+label > img {
+    width: 15vw;
+    padding-left: 8vw;
+    
+}
+.menubutton {
+    border: solid gold 2px;
+    width:fit-content;
+    margin-top: 25px;
+    list-style: none;
+    background-position: center;
+    font-size: 2rem;
+
+}
