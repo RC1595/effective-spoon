@@ -12,21 +12,18 @@ header > div {
 }
 
 header {
-  margin: 2px;
-  padding-top: 1vh;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
 }
 
 header #logo {
-  width: 25vw;
-  padding-left: 8vw;
+  width: 20vw;
 }
 
 header img {
   width: 15vw;
-}
-
-header a > img {
-  padding-left: 8vw;
 }
 
 #menu {
@@ -63,7 +60,6 @@ label {
 
 label > img {
   width: 15vw;
-  padding-left: 8vw;
 }
 
 .menubutton {
@@ -122,6 +118,7 @@ ul {
   width: 80vw;
 }
 
+/* Social Media button links*/
 #socials {
   padding-top: 3vh;
   padding-left: 25vw;
@@ -142,8 +139,13 @@ ul {
   grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
 }
 
+div > form {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
 #textarea {
-  height: 25vh;
+  height: 30vh;
 }
 
 footer {

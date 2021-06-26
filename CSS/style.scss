@@ -55,6 +55,7 @@ ul {
 
 }
 
+/* Social Media button links*/
 #socials {
     padding-top: 3vh;
     padding-left: 25vw;
@@ -72,10 +73,13 @@ ul {
     display:grid;
     grid-template-columns:1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
-    
+    }
+div > form {
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 #textarea {
-    height: 25vh;
+    height: 30vh;
 }
 
 footer {

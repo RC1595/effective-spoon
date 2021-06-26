@@ -2,18 +2,18 @@ header > div {
     color:gold;
 }
 header {
-    margin: 2px;
-    padding-top: 1vh;
+    display:flex;
+    align-items:center;
+    justify-items: center;
+    justify-content: space-evenly;
+
     #logo {
-        width: 25vw;
-        padding-left: 8vw;
+        width: 20vw; 
     }
     img {
         width: 15vw;
     }
-    a > img {
-        padding-left:8vw;
-    }
+
 }
 #menu {
     display: none;
@@ -46,8 +46,6 @@ label {
 }
 label > img {
     width: 15vw;
-    padding-left: 8vw;
-    
 }
 .menubutton {
     border: solid gold 2px;
