@@ -5,9 +5,7 @@
 html {
     background-color: rgb(84, 90, 97);
 }
-body {
-    margin: 5%;
-}
+
 
 @import "_header";
 
@@ -68,6 +66,16 @@ ul {
             padding-left: 3vw;
             color:gold;
     }
+}
+
+#form {
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 3fr 1fr;
+    
+}
+#textarea {
+    height: 25vh;
 }
 
 footer {
