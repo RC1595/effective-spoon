@@ -1,11 +1,13 @@
 header > div {
     color:gold;
 }
+/* Added flexbox to header */
 header {
+    max-width: 100%;
     display:flex;
     align-items:center;
     justify-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
 
     #logo {
         width: 20vw; 
@@ -23,6 +25,7 @@ header {
     height: 55vh;
     width: 65vw;
     margin-top: 15vh;
+    z-index: 1;
 }
         
 .menubutton {
@@ -31,28 +34,40 @@ header {
     grid-template-rows: 1fr 1fr 1fr;        
     align-items: center;
     justify-items: center;
-    
     text-indent: 25vw;
-    color: gold;        
+    color: gold; 
+    border: solid gold 2px;
+    width:fit-content;
+    margin-top: 25px;
+    list-style: none;
+    background-position: center;
+    font-size: 2rem;       
     }
-#menutoggle:checked ~ div {
+#menutoggle:checked ~ #menu {
     display: block;
 }
 #menutoggle {
     display: none;
+}
+#phonetoggle:checked ~ div {
+    display:block;
+}
+#phonetoggle {
+    display:none;
+}
+#phone {
+    display: none;
+    position: fixed;
+    top: 50px;
+    background-color: dimgrey;
+    height:fit-content;
+    width:fit-content;
+    margin-top:15vh;
+    font-size: 3em;
 }
 label {
     user-select: none;
 }
 label > img {
     width: 15vw;
-}
-.menubutton {
-    border: solid gold 2px;
-    width:fit-content;
-    margin-top: 25px;
-    list-style: none;
-    background-position: center;
-    font-size: 2rem;
-
 }
