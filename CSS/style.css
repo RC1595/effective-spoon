@@ -75,11 +75,11 @@ header img {
   display: none;
   position: fixed;
   top: 50px;
-  background-color: dimgrey;
+  background-color: #d1d0d0;
   height: fit-content;
   width: fit-content;
   margin-top: 15vh;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 label {
@@ -92,19 +92,25 @@ label > img {
 
 .images {
   width: 80vw;
+  margin-left: 10vw;
+  margin-top: 5vh;
 }
 
 nav {
   font-size: 1.5em;
 }
 
-div h1 {
-  margin-left: 35vw;
+nav a {
   color: gold;
 }
 
-#topimage {
-  margin-left: 10vw;
+nav :active {
+  color: gold;
+}
+
+div h1 {
+  margin-left: 35vw;
+  color: gold;
 }
 
 #appetizers h3 {
@@ -185,8 +191,9 @@ div h1 {
 }
 
 #heading {
+  font-size: 1em;
   padding-top: 3vh;
-  padding-left: 15vw;
+  padding-left: 5vw;
   color: gold;
 }
 
@@ -194,7 +201,7 @@ iframe {
   width: 80vw;
   height: 60vh;
   padding-top: 3vh;
-  padding-left: 5vw;
+  padding-left: 10vw;
 }
 
 .photo {
@@ -208,26 +215,36 @@ iframe {
 }
 
 .text p {
-  text-indent: 15vw;
+  text-indent: 7vw;
 }
 
 .text q {
   color: honeydew;
+  margin-left: 5vw;
+}
+
+.text h5 {
+  text-indent: 10vw;
+}
+
+/* Hours of Operation */
+#contactheading {
+  margin-right: vw;
 }
 
 h4 {
   color: gold;
-  text-indent: 42vw;
+  text-indent: 43vw;
 }
 
 ul {
   padding-top: 3vh;
   list-style: none;
   color: gold;
-  text-indent: 30vw;
+  text-indent: 15vw;
 }
 
-.mapouter {
+.mapouter #gmap_canvas {
   width: 80vw;
 }
 

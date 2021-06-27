@@ -12,8 +12,9 @@ html {
 
 
 #heading {
+    font-size: 1em;
     padding-top: 3vh;
-    padding-left:15vw;
+    padding-left:5vw;
     color:gold;
 }
 
@@ -21,7 +22,7 @@ iframe {
     width:80vw;
     height:60vh;
     padding-top:3vh;
-    padding-left: 5vw;
+    padding-left: 10vw;
 }
 
 .photo {
@@ -33,26 +34,39 @@ iframe {
 .text {
     color:gold;
     p {
-        text-indent: 15vw;
+        text-indent: 7vw;
     }
     q {
         color:honeydew;
+        margin-left:5vw;
     }
+    h5 {
+        text-indent: 10vw;
+    }
+}
+
+
+
+/* Hours of Operation */
+#contactheading {
+    margin-right:vw;
 }
 h4 {
     color:gold;
-    text-indent:42vw;
-
+    text-indent:43vw;
 }
 
 ul {
     padding-top: 3vh;
     list-style: none;
     color:gold;
-    text-indent: 30vw;
+    text-indent: 15vw;
 }
 .mapouter {
-    width: 80vw;
+    #gmap_canvas{
+        width: 80vw;
+    }
+    
 
 }
 
