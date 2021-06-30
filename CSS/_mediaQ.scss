@@ -2,6 +2,7 @@
 
 @media only screen and (min-width:600px){
 
+    /* Main Page */
     #heading {
         height: 15vh;
         padding-top:3vh;
@@ -21,6 +22,11 @@
             text-align: center;
         }
     }
+
+    h2 {
+        text-align: center;
+    }
+
     #tabletimgcontainer {
         display: grid;
         grid-template-columns: 1fr 4fr 1fr;
@@ -62,13 +68,13 @@
         margin-left: 10vw;
         margin-right: 10vw;
     }
-    h2 {
-        text-align: center;
-    }
+
 
     #contactheading > p {
         display:none;
     }
+
+    /* Contact */
     
     #hourscontainer {
         display: flex;
@@ -83,6 +89,57 @@
         
     }
 
+        /* Menu */
+    #menucontainer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        justify-items: center;
+        align-items:center;
+        #appetizers {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 2;
+        }
+        #wings {
+            height: 55vh;
+        }
+        .images {
+            margin-left: 2.5vw;
+            width:40vw;
+            height:55vh;
+        }
+        #pizzamenu {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+        #pizzaoven {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 3;
+        }
+
+        #pastamenu {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 3;
+            grid-row-end: 4;
+        }
+
+        #drinkmenu {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+        #wine {
+            height: 80vh;
+        }
+    }
 
 }
 
