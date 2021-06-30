@@ -1,0 +1,88 @@
+/* Tablet*/
+
+@media only screen and (min-width:600px){
+
+    #heading {
+        height: 15vh;
+        padding-top:3vh;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        #welcome {
+            grid-row-start: 1;
+            grid-row-end: 2;
+            font-size: 1.5em;
+            justify-content: center;
+        }
+        p {
+            grid-row-start: 2;
+            grid-row-end: 3;
+            font-size: 1.5em;
+            text-indent: 10vw;
+            text-align: center;
+        }
+    }
+    #tabletimgcontainer {
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
+        padding-top: 3vh;
+    }
+    #maintabletimg {
+        display:block;
+        width:80vw;
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    .text {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        width: 80vw;
+        margin-top: 3vh;
+        img {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            width:40vw;
+        }
+        p {
+            grid-column-start: 2;
+            grid-column-end: 3;
+            padding: 3vh;
+            text-align: center;
+            
+        }
+        h5{
+            grid-column-start: 2;
+            grid-column-end: 3;
+            text-align: center;
+        }
+    }
+    #story {
+        margin-top:3vh;
+        color: gold;
+        display: block;
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    h2 {
+        text-align: center;
+    }
+
+    #contactheading > p {
+        display:none;
+    }
+    
+    #hourscontainer {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        max-width: 100%;
+        justify-content: center;
+        align-items:center;
+        address {
+            padding-left: 2vw;
+        }
+        
+    }
+
+
+}
+

@@ -7,6 +7,7 @@
 }
 
 nav {
+    text-align: center;
     a{
         color:gold;
     }
@@ -18,80 +19,84 @@ nav {
 }
 
 div h1 {
-    margin-left: 35vw;
+    text-align: center;
     color: gold;
+    padding-top: 3vh;
 }
 
 #appetizers {
     h3 {
-        margin-left: 35vw;
-        padding-top:2vh;
+        text-align: center;
+        padding-top:3vh;
         color:red;
     }
     h4 {
         padding-top: 2vh;
     }
-    p{
-        margin-left: 10vw;
+    p {
+        text-align: center;
     }
     .price {
-        margin-left:40vw;
-        color:gold;
+        text-align:center;
+        color:red;
     }
 }
 
 /* Menu Items */
 #pizzamenu {
     h3 {
-        margin-left: 40vw;
+        text-align: center;
         padding-top:2vh;
         color:red;
     }
     h4 {
-        padding-top: 2vh;
+        padding-top: 3vh;
+        text-align: center;
     }
     p{
-        margin-left: 10vw;
+        text-align: center;
     }
     .price {
-        margin-left:40vw;
-        color:gold;
+        text-align: center;
+        color: red;
     }
 }
 
 #pastamenu {
     h3 {
-        margin-left: 40vw;
+        text-align: center;
         padding-top:2vh;
         color:red;
     }
     h4 {
         padding-top: 2vh;
+        text-align: center;
     }
     p{
-        margin-left: 10vw;
+        text-align: center;
     }
     .price {
-        margin-left:40vw;
-        color:gold;
+        text-align: center;
+        color:red;
     }
 }
 
 #drinkmenu {
     h3 {
-        margin-left: 40vw;
+        text-align: center;
         padding-top:2vh;
         color:red;
     }
     h4 {
         padding-top: 2vh;
+        text-align: center;
     }
     p{
-        margin-left: 10vw;
+        text-align: center;
     }
     .price {
-        margin-left:40vw;
-        color:gold;
+        text-align: center;
+        color:red;
     }
 }
 

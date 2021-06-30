@@ -9,13 +9,14 @@ html {
 
 @import "_header";
 @import "_menu";
+@import "_mediaQ";
+
 
 
 #heading {
     font-size: 1em;
-    padding-top: 3vh;
-    padding-left:5vw;
     color:gold;
+    text-align: center;
 }
 
 iframe {
@@ -23,6 +24,10 @@ iframe {
     height:60vh;
     padding-top:3vh;
     padding-left: 10vw;
+}
+
+#story {
+    display: none;
 }
 
 .photo {
@@ -34,33 +39,48 @@ iframe {
 .text {
     color:gold;
     p {
-        text-indent: 7vw;
+        text-align:center
     }
     q {
         color:honeydew;
         margin-left:5vw;
     }
     h5 {
-        text-indent: 10vw;
+        text-align: right;
+        padding-right: 15vw;
     }
 }
-
+#maintabletimg {
+    display: none;
+}
 
 
 /* Hours of Operation */
-#contactheading {
-    margin-right:vw;
+#contactheading > p {
+    text-align: center;
+    color: gold;
 }
+#contactheading > h1 {
+    margin: 0px;
+    text-align: center;
+}
+
 h4 {
     color:gold;
-    text-indent:43vw;
+    text-align:center;
+    
 }
 
 ul {
     padding-top: 3vh;
     list-style: none;
     color:gold;
-    text-indent: 15vw;
+    text-align:center;
+}
+
+address {
+    color: red;
+    text-align: center;
 }
 .mapouter {
     #gmap_canvas{
@@ -73,10 +93,12 @@ ul {
 /* Social Media button links*/
 #socials {
     padding-top: 3vh;
-    padding-left: 25vw;
     padding-bottom: 3vh;
-    align-items: center;
-    justify-items: center;
+    display:flex;
+    max-width: 100%;
+    justify-content: space-evenly;
+    
+
         svg {
             height: 5vh;
             padding-left: 3vw;
@@ -87,7 +109,9 @@ ul {
 
 
 footer {
+    height:10vh;
     border-top: solid gold 1px;
     color:gold;
-    text-indent: 25vw;
+    text-align:center;
 }
+
