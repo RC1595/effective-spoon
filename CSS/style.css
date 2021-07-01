@@ -28,6 +28,10 @@ header #phoneimage {
   width: 15vw;
 }
 
+#storefront {
+  display: none;
+}
+
 #menu {
   display: none;
   position: fixed;
@@ -321,6 +325,34 @@ div h1 {
   #menucontainer #wine {
     height: 80vh;
   }
+}
+
+@media only screen and (min-width: 992px) {
+  header label > img {
+    display: none;
+  }
+  header #menu {
+    display: none;
+  }
+  header #storefront {
+    display: inline;
+  }
+  header #storefront img {
+    height: 35vh;
+  }
+  header #contactcontainer {
+    font-size: 3em;
+  }
+  header #contactcontainer :hover {
+    cursor: pointer;
+  }
+  #mainnav {
+    display: flex;
+  }
+}
+
+#mainnav {
+  display: none;
 }
 
 #heading {
