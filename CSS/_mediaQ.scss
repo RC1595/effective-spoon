@@ -140,33 +140,19 @@
             height: 80vh;
         }
     }
+    .menunav {
+        margin-left: 3vw;
+        
+    }
 
 }
 
 @media only screen and (min-width:992px) {
-    header {
-        
-        label > img {
-            display: none;
-        }
-        #menu { 
-            display: none;
-        }
-        #storefront {            
-            display:inline;
-            img {
-                height:35vh;
-            }
-        }
-        #contactcontainer {
-            font-size: 3em;
-            
-            :hover {
-                cursor: pointer;
-            }
-    }   
+
+    #mainnav {
+        height: 7vh;
+        display:flex;
+        justify-content: space-around;
 }
-#mainnav {
-    display:flex;
-}
+
 }

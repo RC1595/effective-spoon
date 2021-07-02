@@ -91,6 +91,27 @@ label > img {
   }
 }
 
+@media only screen and (min-width: 992px) {
+  header label > img {
+    display: none;
+  }
+  header #menu {
+    display: none;
+  }
+  header #storefront {
+    display: inline;
+  }
+  header #storefront img {
+    height: 35vh;
+  }
+  header #contactcontainer {
+    font-size: 3em;
+  }
+  header #contactcontainer :hover {
+    cursor: pointer;
+  }
+}
+
 .images {
   width: 80vw;
   margin-left: 10vw;
@@ -325,34 +346,17 @@ div h1 {
   #menucontainer #wine {
     height: 80vh;
   }
+  .menunav {
+    margin-left: 3vw;
+  }
 }
 
 @media only screen and (min-width: 992px) {
-  header label > img {
-    display: none;
-  }
-  header #menu {
-    display: none;
-  }
-  header #storefront {
-    display: inline;
-  }
-  header #storefront img {
-    height: 35vh;
-  }
-  header #contactcontainer {
-    font-size: 3em;
-  }
-  header #contactcontainer :hover {
-    cursor: pointer;
-  }
   #mainnav {
+    height: 7vh;
     display: flex;
+    justify-content: space-around;
   }
-}
-
-#mainnav {
-  display: none;
 }
 
 #heading {
@@ -398,6 +402,12 @@ iframe {
 
 #maintabletimg {
   display: none;
+}
+
+@media only screen and (max-width: 992px) {
+  #mainnav {
+    display: none;
+  }
 }
 
 /* Hours of Operation */
