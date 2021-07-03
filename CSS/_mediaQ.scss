@@ -56,7 +56,6 @@
             text-align: center;
             align-self: center;
             justify-self: center;
-            
         }
         h5{
             grid-column-start: 2;
@@ -65,6 +64,7 @@
             grid-row-end: 2;
         }
     }
+
     #story {
         margin-top:3vh;
         color: gold;
@@ -168,7 +168,14 @@
         }
         }
 .menunav:active {
+    color: rgb(131, 48, 48);
+}
+.menunav:hover {
+    height:5vh;
     color:firebrick;
+    transition-property: height 7vh;
+    transition-duration: 1.5s;
+    -o-transition-timing-function: ease-in;
 }
 
 

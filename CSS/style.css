@@ -374,7 +374,14 @@ div h1 {
     color: firebrick;
   }
   .menunav:active {
+    color: #833030;
+  }
+  .menunav:hover {
+    height: 5vh;
     color: firebrick;
+    transition-property: height 7vh;
+    transition-duration: 1.5s;
+    -o-transition-timing-function: ease-in;
   }
   #appetizers {
     border: firebrick solid;
