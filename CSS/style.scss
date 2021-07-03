@@ -16,6 +16,7 @@ html {
     font-size: 1em;
     color:gold;
     text-align: center;
+
 }
 
 iframe {
@@ -25,9 +26,7 @@ iframe {
     padding-left: 10vw;
 }
 
-#story {
-    display: none;
-}
+
 
 .photo {
     width: 80vw;
@@ -46,7 +45,7 @@ iframe {
     }
     h5 {
         text-align: right;
-        padding-right: 15vw;
+
     }
 }
 #maintabletimg {
@@ -55,6 +54,12 @@ iframe {
 
 @media only screen and (max-width: 992px){
     #mainnav {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    #story {
         display: none;
     }
 }

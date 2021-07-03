@@ -13,13 +13,14 @@
             grid-row-end: 2;
             font-size: 1.5em;
             justify-content: center;
+            align-content: center;
         }
         p {
             grid-row-start: 2;
             grid-row-end: 3;
             font-size: 1.5em;
-            text-indent: 10vw;
-            text-align: center;
+            justify-self: center;
+            align-self: center;
         }
     }
 
@@ -53,12 +54,15 @@
             grid-column-end: 3;
             padding: 3vh;
             text-align: center;
+            align-self: center;
+            justify-self: center;
             
         }
         h5{
             grid-column-start: 2;
             grid-column-end: 3;
-            text-align: center;
+            grid-row-start: 2;
+            grid-row-end: 2;
         }
     }
     #story {
@@ -105,7 +109,7 @@
         #wings {
             height: 55vh;
         }
-        
+
         .images {
             margin-left: 2.5vw;
             width:40vw;
@@ -142,8 +146,7 @@
         }
     }
     .menunav {
-        margin-left: 3vw;
-        
+        margin-left: 3vw;        
     }
 
 }
@@ -151,9 +154,40 @@
 @media only screen and (min-width:992px) {
 
     #mainnav {
+        margin-top: 3vh;
         height: 7vh;
         display:flex;
         justify-content: space-around;
+        align-items: center;
+        border-bottom: gold solid;
+        border-top: gold solid;
+        background-color: firebrick;
+        a:hover {
+            background-color:gold;
+            color:firebrick;    
+        }
+        }
+.menunav:active {
+    color:firebrick;
 }
 
+
+
+#appetizers {
+    border:firebrick solid;
+    background-color: rgb(77, 72, 72);
+}
+#pizzamenu {
+    border:firebrick solid;
+    background-color: rgb(77, 72, 72);
+    
+}
+#pastamenu {
+    border:firebrick solid;
+    background-color: rgb(77, 72, 72);
+}
+#drinkmenu {
+    border: firebrick solid;
+    background-color: rgb(77, 72, 72);
+}
 }
