@@ -175,10 +175,8 @@
     color:firebrick;
     transition-property: height 7vh;
     transition-duration: 1.5s;
-    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
 }
-
-
 
 #appetizers {
     border:firebrick solid;

@@ -381,7 +381,7 @@ div h1 {
     color: firebrick;
     transition-property: height 7vh;
     transition-duration: 1.5s;
-    -o-transition-timing-function: ease-in;
+    transition-timing-function: ease-in;
   }
   #appetizers {
     border: firebrick solid;
@@ -477,8 +477,20 @@ ul {
 }
 
 address {
-  color: red;
+  color: #fdf277;
   text-align: center;
+}
+
+address a {
+  color: palegoldenrod;
+}
+
+address a:hover {
+  height: 1vh;
+  color: darkturquoise;
+  transition-property: height 7vh;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
 }
 
 .mapouter #gmap_canvas {

@@ -90,9 +90,20 @@ ul {
 }
 
 address {
-    color: red;
+    color:rgb(253, 242, 119);
     text-align: center;
-}
+    a {
+        color:palegoldenrod;}
+        
+    a:hover {
+        height:1vh;
+        color:darkturquoise;
+        transition-property: height 7vh;
+        transition-duration: 1s;
+        transition-timing-function: ease-in;
+    }
+    }
+
 .mapouter {
     #gmap_canvas{
         width: 80vw;
